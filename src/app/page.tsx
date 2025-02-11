@@ -1,13 +1,13 @@
 "use client"
 import Header from "@/Header/Header1/header";
-import Hero from "@/Hero/hero2banner";
-import ProductsHome from "@/ProductsHome/ProductsHome1";
-import Reviews from "@/Reviews/Reviews1";
-import Socials from "@/Social/Socials1";
+import Hero from "{main_hero}";
+import ProductsHome from "{main_products}";
+import Reviews from "{main_extra}";
+import Socials from "{main_socials}";
 import Footer from "@/Footer/Footer1";
-import Loading from '@/Loading/Loading1';
+import Loading from '{main_loading}';
 import { useEffect, useState } from "react";
-import Blog from "@/blog/blog";
+import Blog from "{main_blog}";
 import { Config, DefaultConfig, GetCategories, GetConfig, GetItems, Item, updateVisits } from "@/util";
 
 export default function Home() {

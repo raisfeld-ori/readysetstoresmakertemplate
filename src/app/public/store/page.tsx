@@ -1,9 +1,9 @@
 "use client"
-import ProductsBanner from "@/ProductsBanner/Productbanner1";
-import ProductsSection from "@/ProductsShop/ProductsShop1";
-import Reviews from "@/Reviews/Reviews1";
-import Loading from '@/Loading/Loading1';
-import Header2 from "@/Header/Header1/header";
+import ProductsBanner from "{product_banner}";
+import ProductsSection from "{shoping}";
+import Reviews from "{extra}";
+import Loading from '{loading}';
+import Header2 from "{shop_header}";
 
 import { useEffect, useState } from "react";
 import { DefaultConfig, GetCategories, GetConfig, GetItems, Item } from "@/util";

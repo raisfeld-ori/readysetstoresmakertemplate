@@ -1,6 +1,6 @@
 "use client"
-import GetInTouch from "@/Getintouch/getintouch1";
-import Loading from "@/Loading/Loading1";
+import GetInTouch from "{contact}";
+import Loading from "{contact_loading}";
 import { DefaultConfig, GetConfig } from "@/util";
 import { useEffect, useState } from "react";
 export default function Home() {
