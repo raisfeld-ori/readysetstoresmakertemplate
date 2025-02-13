@@ -2,7 +2,7 @@
 import ProductsBanner from "{product_banner}";
 import ProductsSection from "{shoping}";
 import Reviews from "{extra}";
-import Loading from '{loading}';
+import Loading from '@/Loading/Loading1';
 import Header2 from "{shop_header}";
 
 import { useEffect, useState } from "react";

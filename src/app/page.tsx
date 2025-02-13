@@ -5,7 +5,7 @@ import ProductsHome from "{main_products}";
 import Reviews from "{main_extra}";
 import Socials from "{main_socials}";
 import Footer from "@/Footer/Footer1";
-import Loading from '{main_loading}';
+import Loading from '@/Loading/Loading1';
 import { useEffect, useState } from "react";
 import Blog from "{main_blog}";
 import { Config, DefaultConfig, GetCategories, GetConfig, GetItems, Item, updateVisits } from "@/util";
