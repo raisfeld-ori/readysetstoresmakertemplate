@@ -3,7 +3,7 @@ import ProductsBanner from "{product_banner}";
 import ProductsSection from "{shoping}";
 import Reviews from "{extra}";
 import Loading from '@/Loading/Loading1';
-import Header2 from "{shop_header}";
+import Header2 from "@/Header/Header1/header";
 
 import { useEffect, useState } from "react";
 import { DefaultConfig, GetCategories, GetConfig, GetItems, Item } from "@/util";
