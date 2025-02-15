@@ -1,5 +1,5 @@
 "use client"
-import Header from "@/Header/Header1/header";
+import Header from "@/Header/Header1";
 import Hero from "{main_hero}";
 import ProductsHome from "{main_products}";
 import Reviews from "{main_extra}";
