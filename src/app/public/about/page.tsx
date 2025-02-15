@@ -1,5 +1,5 @@
 "use client"
-import AboutPage from "{about_hero}"
+import AboutPage from "@/Hero/Hero1"
 import Loading from "@/Loading/Loading1";
 import { Config, DefaultConfig, GetConfig } from "@/util";
 import { useEffect, useState } from "react";

@@ -1,9 +1,9 @@
 "use client"
 import Header from "@/Header/Header1";
-import Hero from "{main_hero}";
-import ProductsHome from "{main_products}";
-import Reviews from "{main_extra}";
-import Socials from "{main_socials}";
+import Hero from "@/Hero/Hero1";
+import ProductsHome from "@/Hero/Hero1";
+import Reviews from "@/Hero/Hero1";
+import Socials from "@/Hero/Hero1";
 import Footer from "@/Footer/Footer1";
 import Loading from '@/Loading/Loading1';
 import { useEffect, useState } from "react";

@@ -1,7 +1,7 @@
 "use client"
-import ProductsBanner from "{product_banner}";
-import ProductsSection from "{shoping}";
-import Reviews from "{extra}";
+import ProductsBanner from "@/Hero/Hero1";
+import ProductsSection from "@/Hero/Hero1";
+import Reviews from "@/Hero/Hero1";
 import Loading from '@/Loading/Loading1';
 import Header2 from "@/Header/Header1/header";
 
