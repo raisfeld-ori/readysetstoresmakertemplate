@@ -1,9 +1,9 @@
 "use client"
-{about_imports}
+{page_imports}
 
 export default function Page(){
     return <>
-    {about_page}
+    {page}
     
     </>
 }

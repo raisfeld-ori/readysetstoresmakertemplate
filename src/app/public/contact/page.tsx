@@ -1,9 +1,9 @@
 "use client";
-{contact_imports}
+{page_imports}
 export default function Home() {
   return (
     <>
-    {contact_page}
+    {page}
     </>
   );
 }

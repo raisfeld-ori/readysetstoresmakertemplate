@@ -1,10 +1,10 @@
 "use client"
-{store_imports}
+{page_imports}
 
 export default function Home() {
   return (
     <>
-    {store_page}
+    {page}
  
     
     </>
