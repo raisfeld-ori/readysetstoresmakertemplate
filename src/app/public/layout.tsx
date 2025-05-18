@@ -1,5 +1,5 @@
 "use client"
-import Header from "@/Header/Header1/header";
+import Header from "@/Header/Header1";
 import Footer from "@/Footer/Footer1";
 import Loading from "@/Loading/Loading1";
 
