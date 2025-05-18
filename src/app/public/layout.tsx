@@ -1,7 +1,6 @@
 "use client"
 import Header from "@/Header/Header1";
 import Footer from "@/Footer/Footer1";
-import Loading from "@/Loading/Loading1";
 
   
 export default function RootLayout({
