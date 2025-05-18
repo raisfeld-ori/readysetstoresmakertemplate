@@ -13,11 +13,12 @@ export default function RootLayout({
   const router = useRouter();
   const [config, setConfig] = useState(DefaultConfig());
   useEffect(() => {
-      Login(Cookies.get("user") || "", Cookies.get("password") || "").then((res) => {
+      Login(Cookies.get("user") || "", Cookies.get("password") || "").then(
+        (res) => {
       if (!res) router.push("/auth");
       GetConfig().then((config) => setConfig(config));
-    }
-  }), []);
+        }
+  }, []);
   useEffect(() => {document.title = "מצבשם | מצב מנהל";}, []);
   return (
     <html lang="en">
