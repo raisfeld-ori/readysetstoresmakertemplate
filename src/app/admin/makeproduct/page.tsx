@@ -4,7 +4,7 @@ import { GetCategories } from "@/util";
 import { useEffect, useState } from "react";
 
 
-export default function page(){
+export default function Page(){
     const [categories, setCategories] = useState<string[]>([]);
 
     useEffect(() => {
